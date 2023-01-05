@@ -13,12 +13,17 @@ function addPoints(point,team){
         guestResult.textContent = countGuest
     }
     if(countHome>countGuest){
-        homeResult.style.boxShadow = "0px 0px 5px #FFC400"
+         homeResult.classList.add("shadow")
+        guestResult.classList.remove("shadow")
     }else if(countGuest>countHome){
-        guestResult.style.boxShadow = "0px 0px 5px #FFC400"
+        
+        guestResult.classList.add("shadow")
+        homeResult.classList.remove("shadow")
+        
     }else{
-        homeResult.style.boxShadow = "0px 0px 0px #FFC400"
-        guestResult.style.boxShadow = "0px 0px 0px #FFC400"
+        guestResult.classList.remove("shadow")
+        homeResult.classList.remove("shadow")
+        
     }
 }
 
