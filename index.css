@@ -1,0 +1,101 @@
+@font-face{
+    src: url("fonts/CursedTimer.ttf");
+    font-family:"CursedTimer"
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #292D3E;
+}
+
+.logo-container{
+    margin-top: 10px;
+    text-align: center;
+}
+#logo-img{
+    width: 150px;
+}
+
+.container-results{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    max-width: 500px;
+    margin: 20px auto;
+    min-height: 300px;
+    background-color: #4B4364;
+    justify-content: space-around;
+    box-shadow: 5px 5px #221B28;
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    padding: 10px;
+ 
+}
+h3{
+    font-weight: lighter;
+    letter-spacing: 5px;
+    color:white;
+       padding: 10px
+}
+#vs-txt{
+    background-color: #E50D24;
+    text-align: center;
+    margin-top:18px;
+}
+
+h4{
+    background-color: #39344A;
+    color:#FFC400;
+    padding: 10px;
+    font-size: 80px;
+    font-weight: lighter;
+    font-family: CursedTimer;
+    transition: 0.8s;
+}
+
+button{
+    border:1px solid white;
+    border-radius:5px;
+    background-color: transparent;
+    color:white;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+button:hover{
+    background-color: #FFC400;    
+    color:black;
+}
+
+.container-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+#new-button{
+    background-color: #E50D24;
+    margin-bottom: 22px;
+    transition: 1s;
+}
+#new-button:hover{
+ background-color: #FFC400;
+ color:black;   
+}
+
+h5{
+    color:#FFC400;
+    font-size: 80px;
+    font-weight: lighter
+}
